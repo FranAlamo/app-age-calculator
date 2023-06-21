@@ -24,9 +24,9 @@ body {
 }
 .container {
   background-color: var(--White);
-  width: 420px;
-  max-width: 80%;
-  padding: 25px;
+  width: 450px;
+  max-width: 100%;
+  padding: 50px;
   position: relative;
   border-top-right-radius: 150px;
 }
@@ -58,5 +58,25 @@ small {
   border-radius: 50%;
   position: absolute;
   right: 30px;
-  top: 60px;
+  top: 100px;
+  cursor: pointer;
+}
+.output span {
+  font-size: 2.75rem;
+  color: var(--Purple);
+  font-style: italic;
+}
+submit-btn:hover {
+  background-color: black;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.input-flex {
+  display: flex;
+  border-bottom: 2px solid var(--White);
+  margin-bottom: 20px;
 }
